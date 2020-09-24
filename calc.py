@@ -12,5 +12,7 @@ def multiply(x, y):
 
 def divide(x, y):
     """this is divide function"""
+    if y == 0:
+        return ValueError
     return x / y
 
